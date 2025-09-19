@@ -13,10 +13,6 @@ add_executable(GateServer main.cpp
         LogicSystem.cpp
         LogicSystem.h
         message.proto
-        message.grpc.pb.cc
-        message.grpc.pb.h
-        message.pb.cc
-        message.pb.h
         VerifyGrpcClient.cpp
         VerifyGrpcClient.h
         ConfigManager.cpp

@@ -23,10 +23,6 @@ add_executable(StatusServer
         IOContextPool.h
         StatusServiceImpl.cpp
         StatusServiceImpl.h
-        message.grpc.pb.cc
-        message.grpc.pb.h
-        message.pb.cc
-        message.pb.h
         ChatGrpcClient.cpp
         ChatGrpcClient.h
         GRPCConnPool.hpp

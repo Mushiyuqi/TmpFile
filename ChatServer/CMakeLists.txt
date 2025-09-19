@@ -16,10 +16,6 @@ add_executable(ChatServer main.cpp
         ConfigManager.h
         ConfigManager.cpp
         message.proto
-        message.grpc.pb.cc
-        message.grpc.pb.h
-        message.pb.h
-        message.pb.cc
         IOContextPool.cpp
         IOContextPool.h
         GRPCConnPool.hpp
